@@ -11,7 +11,7 @@ body {
     width: 100%;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -73,7 +73,13 @@ p{
     border-color: rgb(121, 55, 101);
     box-shadow: 0px 0px 10px color rgb(15, 63, 95);
     color: rgb(25, 69, 100);
-    border: 5px solid;*/
+    border: 5px solid;
     
 }
-
+sub{
+    width: 200px;
+    height: 2vh;
+    display: flex;
+    padding: 2px 15px;
+    justify-content: left;
+}
